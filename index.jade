@@ -1,0 +1,22 @@
+include ./includes/head.jade  
+body
+  include ./includes/nav.jade
+  
+  section.main
+    include ./includes/overlay.jade
+          
+    .main-inner.index
+    
+    nav.project-list
+      .row
+        ul.columns.four
+          li: a(href="/portfolio/signature.html") 01 Signature Magazine
+          li: a(href="/portfolio/fisheye.html") 02 Fish Eye Eyewear
+        ul.columns.four
+          li: a(href="/portfolio/abvi.html") 03 RIT ABVI
+          li: a(href="/portfolio/posters.html") 04 POSTERS
+        ul.columns.four
+          li: a(href="/portfolio/capstone.html") 05 Capstone
+  
+  include ./includes/footer.jade
+</html>
